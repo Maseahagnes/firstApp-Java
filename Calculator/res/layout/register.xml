@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fffccc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Textviewfirstname" 
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="30dp"/>
+    
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         android:background="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20sp" 
+        android:text="@string/Textviewsecondname" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+         android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Textviewemail"
+        android:background="#ffffff" 
+        android:textSize="20sp" 
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+         android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Textviewidnumber"
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+         android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/btnsubmitregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_submit" 
+        android:background="#ffffff"
+        android:textSize="20sp" 
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btncancelregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_cancel"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+    
+</LinearLayout>
